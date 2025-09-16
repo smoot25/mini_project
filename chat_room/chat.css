@@ -1,0 +1,91 @@
+/**/
+*{
+    box-sizing: border-box;
+}
+html{
+    height:100%;
+    width:480px;
+    margin:auto;
+}
+body{
+    height:100%;
+    margin:0;
+}
+.container{
+    height:100%;
+    background-color:#E5BEB5;
+}
+
+/**/
+.chat-screen{
+    height: calc(100% - 100px);
+}
+
+/**/
+.user{
+    background-color: #69505099;
+    padding: 16px;
+    height: 80px;
+}
+.user_column{
+    float:left;
+}
+.user_pic{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+    border-radius: 10px;
+    background-color: #EEE6CA;
+}
+#maru{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    margin:0;
+    border-radius: 10px;
+}
+.user_column p{
+    margin:1px;
+}
+#user_name{
+    color:#EEE6CA;
+    font-style: bold;
+}
+#user_count{
+    color:#EEE6CA;
+    font-size:10pt;
+}
+
+/**/
+.chat-form{
+    height:120px;
+    background-color: #69505099;
+}
+.chat-section{
+    height:120px;
+}
+.chat_text{
+    width: calc(100% - 120px);
+    height: 60px;
+    border: none;
+    resize: none;
+    font-size: 12pt;
+    padding: 15px;
+    background-color: #F5FAE1;
+    margin-top:20px;
+    float:left;
+    border-radius:5px;
+    margin-left:20px;
+}
+.chat-send_btn{
+    width:60px;
+    height:60px;
+    border-radius: 20px;
+    border:0;
+    background-color: #F5FAE1;
+    font-size: 12pt;
+    float:right;
+    margin: 20px;
+}
+
+
