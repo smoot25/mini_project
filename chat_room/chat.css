@@ -77,15 +77,19 @@ body{
     border-radius:5px;
     margin-left:20px;
 }
+.chat_text:focus{
+    outline:none;
+}
 .chat-send_btn{
     width:60px;
     height:60px;
     border-radius: 20px;
     border:0;
-    background-color: #F5FAE1;
+    background-color: #F5FFFF;
     font-size: 12pt;
     float:right;
     margin: 20px;
 }
-
-
+.chat-send_btn:active{
+    background-color: #F5FAE1;
+}
